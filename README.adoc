@@ -1,0 +1,16 @@
+= Introduction
+Trying out AsciiDoc and the GitBook toolchain.
+
+== Building
+
+* Install https://nodejs.org/en/
+* Install https://calibre-ebook.com/
+* Prepare your environment:
+
+[source,bat]
+set path=%path%;C:\Program Files\nodejs
+set path=%path%;C:\Program Files\Calibre2
+npm install gitbook-cli -g
+npm install svgexport -g
+ 
+* Build pdf using command `gitbook pdf ./ ./mybook.pdf`
